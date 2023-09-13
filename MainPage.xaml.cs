@@ -28,7 +28,7 @@ namespace MauiComm_IssueSnackbarToastCorner
             snackbar.Show();
         }
 
-        private void btnShowToast_Clicked(object sender, EventArgs e)
+        void btnShowToast_Clicked(object sender, EventArgs e)
         {
             Toast toast = new Toast()
             {
