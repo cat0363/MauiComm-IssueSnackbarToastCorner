@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_IssueSnackbarToastCorner.MainPage" BackgroundColor="Gray">
+
+    <Grid RowDefinitions="44,44,*" RowSpacing="5">
+        <Button Grid.Row="0" x:Name="btnShowSnackbar" Text="Show Snackbar" TextColor="White" BackgroundColor="Blue" Clicked="btnShowSnackbar_Clicked" />
+        <Button Grid.Row="1" x:Name="btnShowToast" Text="Show Toast" TextColor="White" BackgroundColor="Blue" Clicked="btnShowToast_Clicked"/>
+    </Grid>
+
+</ContentPage>
